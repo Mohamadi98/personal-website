@@ -9,6 +9,8 @@ body {
     align-items: center;
     padding-left: 120px;
     padding-right: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .header-name {
@@ -38,6 +40,13 @@ body {
     padding-top: 10px;
     padding-bottom: 50px;
     border-radius: 15px;
+}
+
+.about img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
 }
 
 .about p {
